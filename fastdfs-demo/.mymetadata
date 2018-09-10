@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="fastdfs_demo"
+  id="myeclipse.1514533636668"
+  context-root="/fastdfs_demo"
+  j2ee-spec="6.0"
+  archive="fastdfs_demo.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+

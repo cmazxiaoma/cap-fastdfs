@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cmazxiaoma.architect</groupId>
+  <artifactId>fastdfs_demo</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>fastdfs_demo</name>
+  <url>http://maven.apache.org</url>
+  
+   <properties>
+   		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+   		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    	<maven.test.failure.ignore>true</maven.test.failure.ignore>
+    	<maven.test.skip>true</maven.test.skip>
+   		<junit.version>4.12</junit.version>
+   		<fastdfs.version>1.27-SNAPSHOT</fastdfs.version>
+   		<guava.version>21.0</guava.version>
+   		<apache.commons.lang.version>3.7</apache.commons.lang.version>
+   		<apache.commons.io.version>2.5</apache.commons.io.version>
+    </properties>
+  
+  <dependencies>
+	<dependency>
+    	<groupId>commons-io</groupId>
+    	<artifactId>commons-io</artifactId>
+    	<version>${apache.commons.io.version}</version>
+	</dependency>
+  
+	<dependency>
+    	<groupId>org.apache.commons</groupId>
+    	<artifactId>commons-lang3</artifactId>
+    	<version>${apache.commons.lang.version}</version>
+	</dependency>
+ 
+  	<dependency>
+  		<groupId>junit</groupId>
+      	<artifactId>junit</artifactId>
+      	<version>${junit.version}</version>
+      	<scope>test</scope>
+    </dependency>
+    
+    <dependency>
+    	<groupId>org.csource</groupId>
+    	<artifactId>fastdfs-client-java</artifactId>
+    	<version>${fastdfs.version}</version>
+    </dependency>
+    
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>${guava.version}</version>
+    </dependency>
+    
+  </dependencies>
+  
+  
+  <build>
+    <finalName>fastdfs_demo</finalName>
+  </build>
+  
+</project>
